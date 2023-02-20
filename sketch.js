@@ -34,9 +34,9 @@ function draw() {
   rabbit.collide(edges);
 
   drawSprites();
-  createapples();
-  createorange();
-  createred();
+//   createapples();
+//   createorange();
+//   createred();
   var selectsprites=Math.round(random(1,3));
 
 if (frameCount % 80 == 0){
